@@ -40,7 +40,6 @@ func Push() {
 			log.Println("error:", err)
 		}
 
-		log.Println("debug flag is",  g.Config.Debug)
 		if g.Config.Debug {
 			log.Println("<=", resp)
 		}
